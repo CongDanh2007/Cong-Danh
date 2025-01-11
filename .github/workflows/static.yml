@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang web Ngày Tết</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fffbea;
+            color: #333;
+        }
+        header {
+            background-color: #ffcc00;
+            color: #fffafa;
+            text-align: center;
+            padding: 20px 0;
+            background-image: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3MzeHRwa2d2ZTI4eWwxY2piejU4MHhqOThpOTB5anEyaHZ5cG1tZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Prvgf4DnpRQmTnfIoW/giphy.gif');
+            background-size: cover;
+            height: 15vh;
+            padding:0;
+            margin:0;
+        }
+
+        header h1 {
+            font-size: 100px;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #d2691e;
+            font-size: 25px;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .banner {
+            text-align: center;
+            background: url('');
+            color: white;
+            padding: 50px 20px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #8b0000;
+            border-bottom: 2px solid #ffcc00;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #d2691e;
+            color: white;
+        }
+
+        button {
+            background-color: #ffcc00;
+            color: #8b0000;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ffd700;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .tier-container {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .tier-row {
+        display: flex;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .tier-label {
+        width: 50px;
+        text-align: center;
+        font-weight: bold;
+        padding: 10px 0;
+        color: white;
+    }
+
+    .tier-content {
+        flex: 1;
+        min-height: 50px;
+        padding: 10px;
+        border-left: 1px solid #ddd;
+        background-color: #f9f9f9;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .food-items {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .food-item {
+        display: inline-block;
+        margin: 5px;
+        padding: 10px 15px;
+        background-color: #f4f4f4;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        cursor: grab;
+    }
+
+    .food-item:active {
+        cursor: grabbing;
+    }
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Chúc mừng năm mới 2025!</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#cuisine">Món ăn</a></li>
+                <li><a href="#customs">Phong tục</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="banner">
+            <h2>Chào mừng bạn đến với trang web của chúng mình! Tại đây, bạn sẽ được khám phá một trong những ngày lễ đặc biệt nhất của Việt Nam. Hãy cùng nhau tìm hiểu nhé!</h2>
+            <img src="rong tet.jpg" alt="Hình ảnh không khí Tết">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>Giới thiệu</h2>
+        <p  style= "font-size: 30px;">tết có nguồn gốc từ nông nghiệp, ngta tổ chức các dịp lễ tết này để tạ ơn thần đất thần nước và thần mặt trời, nó cũng bị ảnh huởng bởi văn hóa Trung Hoa .</p>
+        <p  style= "font-size: 30px;">là thời điểm đoàn tụ với gia đình, tuởng nhớ tổ tiên, cầu chúc bình an và hạnh phúc cho cả năm</p>
+    </section>
+
+    <!-- Cuisine Section -->
+    <section id="cuisine">
+        <h2>Món ăn Tết</h2>
+        <ul>
+            <table>
+            <tr style= "font-size: 30px;">
+            <td>
+            <li >Bánh chưng, bánh tét</li>
+            <li>Thịt kho tàu</li>
+            <li>Dưa hành</li>
+            <li>củ kiệu</li>
+            <li>Mứt Tết</li>
+            <li>gà luộc </li> 
+            <li>chả giò</li>
+            <li>chả lụa</li>
+            </td>
+            <td><img src="thit kho tau.jpg" alt="thịt kho tàu" width="300" height="300"></td>
+            <td><img src="banh chung.jpg" alt="chả lụa" width="300" height="300"></td>
+            <td><img src="cha lua.webp" alt="chả lụa" width="300" height="300"></td>
+            <td><img src="1-20-mon-an-ngay-tet-ngon-de-lam-dac-trung-theo-vung-mien.jpg" alt="món ăn ngày tết" width="300" height="300"></td>
+            </tr>
+            </table>
+        </ul>
+    </section>
+
+    <!-- customs Section -->
+    <section id="customs">
+        <h2>Phong tục ngày Tết</h2>
+        <ul style= "font-size: 30px;">
+            <table>
+                <tr>
+                    <td>
+            <li>Hội chợ Tết</li>
+            <li>Lễ hội hoa xuân</li>
+            <li>Bắn pháo hoa chào năm mới</li>
+            <li>cúng ông táo</li>
+            <li>dọn dẹp nhà cửa</li>
+            <li>dựng cây nêu</li>
+                    </td>
+                    <td><video src="DỰNG CÂY NÊU - NÉT ĐẸP PHONG TỤC NGÀY TẾT  .mp4" controls  width="650" height="300"></video></td>
+                    <td><img src="122523-cam_nghi_hoi_hoa_xuan_2.png" alt="lễ hội hoa xuân" width="400" height="300"></td>
+                </tr>
+            </table>
+        </ul>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Liên hệ</h2>
+        <form>
+            <label for="name">Họ và tên:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Lời nhắn:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Gửi</button>
+        </form>
+    </section>
+
+   <!-- Tier List Section -->
+<section id="tier-list" class="tier-list">
+    <h2>Bảng xếp hạng món ăn ngày Tết</h2>
+    <p>Kéo thả để sắp xếp các món ăn theo cấp độ yêu thích của bạn!</p>
+    <div class="tier-container">
+        <div class="tier-row" id="S">
+            <div class="tier-label" style="background-color: #ff6666;">S</div>
+            <div class="tier-content" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+        <div class="tier-row" id="A">
+            <div class="tier-label" style="background-color: #ff9966;">A</div>
+            <div class="tier-content" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+        <div class="tier-row" id="B">
+            <div class="tier-label" style="background-color: #ffcc66;">B</div>
+            <div class="tier-content" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+        <div class="tier-row" id="C">
+            <div class="tier-label" style="background-color: #ffff66;">C</div>
+            <div class="tier-content" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+        <div class="tier-row" id="D">
+            <div class="tier-label" style="background-color: #ccff66;">D</div>
+            <div class="tier-content" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+        <div class="tier-row" id="E">
+            <div class="tier-label" style="background-color: #66ff66;">E</div>
+            <div class="tier-content" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+    </div>
+    <div class="food-items">
+        <h3>Danh sách món ăn</h3>
+        <div id="items">
+            <div class="food-item" draggable="true" ondragstart="drag(event)">Bánh chưng</div>
+            <div class="food-item" draggable="true" ondragstart="drag(event)">Thịt kho tàu</div>
+            <div class="food-item" draggable="true" ondragstart="drag(event)">Dưa hành</div>
+            <div class="food-item" draggable="true" ondragstart="drag(event)">Củ kiệu</div>
+            <div class="food-item" draggable="true" ondragstart="drag(event)">Mứt Tết</div>
+            <div class="food-item" draggable="true" ondragstart="drag(event)">Bánh Tét</div>
+            <div class="food-item" draggable="true" ondragstart="drag(event)">Chả Giò</div>
+            <div class="food-item" draggable="true" ondragstart="drag(event)">Chả Lụa</div>
+            <div class="food-item" draggable="true" ondragstart="drag(event)">gà luộc</div>
+        </div>
+    </div>
+</section>
+    <footer>
+            cảm ơn các bạn đã ghé qua trang web của bọn mình,chúc các bạn có một ngày vui vẻ!
+    </footer>
+
+   
+<script>
+    function allowDrop(event) {
+        event.preventDefault();
+    }
+
+    function drag(event) {
+        event.dataTransfer.setData("text", event.target.id);
+    }
+
+    function drop(event) {
+        event.preventDefault();
+        const data = event.dataTransfer.getData("text");
+        const draggedElement = document.getElementById(data);
+
+        if (!event.target.classList.contains("tier-content")) {
+            return;
+        }
+
+        // Prevent duplicate drops
+        if (Array.from(event.target.children).some(child => child.id === data)) {
+            return;
+        }
+
+        event.target.appendChild(draggedElement);
+    }
+
+    // Assign unique IDs to each draggable item
+    document.querySelectorAll(".food-item").forEach((item, index) => {
+        item.id = `food-item-${index}`;
+    });
+</script>
+</body>
+</html>
